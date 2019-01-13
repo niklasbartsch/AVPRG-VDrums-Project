@@ -68,23 +68,6 @@ function init(){
     tom2Hit = false;
     floorTomHit = false;
 
-
-
-    //Images
-    var map = new THREE.TextureLoader().load( "assets/connected.png" );
-    var map2 = new THREE.TextureLoader().load( "assets/disconnected.png" );
-    material = new THREE.SpriteMaterial( { map: map, color: 0xffffff } );
-    material2 = new THREE.SpriteMaterial( { map: map2, color: 0xffffff } );
-    sprite = new THREE.Sprite( material2 );
-    sprite.scale.set(8.5, 1.42, 1);
-    sprite.position.set(5, 11, 0);
-    sprite.material = material;
-    scene.add( sprite );
-
-
-
-
-
     // Scene rendering 60fps
     function renderScene(){
         let delta = clock.getDelta();
