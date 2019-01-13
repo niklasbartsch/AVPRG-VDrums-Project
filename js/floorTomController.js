@@ -9,7 +9,7 @@ function createFloor(posX, posY, posZ){
         color: 0x00FFFF,
         size: 0.2,
         transparent: true,
-        opacity: 1
+        opacity: 0
     } );
 
     let floorTomCylinder = new THREE.Points( geometry, material );

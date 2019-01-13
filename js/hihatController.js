@@ -10,7 +10,7 @@ function createHiHat(){
     var segments = 16;
     dimensions = 4;
     var cubeGeometry = new THREE.BoxGeometry(dimensions,dimensions,dimensions, segments, segments, segments/2);
-    var cubeMaterial = new THREE.PointsMaterial({color: 0x00ff00, transparent: true, opacity: 1, size: 0.1});
+    var cubeMaterial = new THREE.PointsMaterial({color: 0x00ff00, transparent: true, opacity: 0, size: 0.1});
     var highCube = new THREE.Points(cubeGeometry, cubeMaterial);
     var lowCube = new THREE.Points(cubeGeometry, cubeMaterial);
 

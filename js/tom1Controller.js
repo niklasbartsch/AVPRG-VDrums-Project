@@ -7,7 +7,7 @@ function createTom(posX, posY, posZ){
     let material = new THREE.PointsMaterial( {
         color: 0x00AAff,
         transparent: true,
-        opacity: 1,
+        opacity: 0,
         size: 0.2
     } );
 

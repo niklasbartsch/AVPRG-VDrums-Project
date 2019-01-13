@@ -12,7 +12,7 @@ function createRide(){
         color: 0xFF00FF,
         size: 0.15,
         transparent: true,
-        opacity: 1
+        opacity: 0
     }); 
     
     // COMENT: If cube needed
